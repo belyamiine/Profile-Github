@@ -1,0 +1,100 @@
+:root {
+  
+  --police-ecriture: 'inter';
+  --police-contactermoi: 'Orbitron';
+  --color-text: rgb(255, 255, 255);
+
+}
+
+body {
+  
+  display: flex;              
+  justify-content: center;    
+  align-items: center;        
+  min-height: 100vh;          
+  margin: 0;
+  background: white ;
+  font-family: var(--police-ecriture);
+  color: var(--color-text);
+  text-shadow: 0px 0px 20px #353636;
+
+}
+
+div {
+  
+  text-align: center;
+  background:  #e5f1ef;
+  max-width: 400px;   
+  width: 100%;
+  border-radius: 9px;
+  box-shadow: 0px 0px 20px #bdf3e9;
+
+}
+
+
+img  {
+  
+  width: 150px;         
+  height: 150px;         
+  border-radius: 50%;    
+  margin: 10px 5px;
+  object-fit: cover;
+  box-shadow: 0px 0px 20px #ffffff;
+
+}
+
+
+
+p {
+
+  margin: 5px 5px;
+  color: rgb(62, 62, 62);
+  
+}
+
+
+button {
+  
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  border-color: whitesmoke;
+  min-width: 300px;
+  margin-top: 10px;   
+  margin-bottom: 15px;
+  background-color: transparent;
+  text-transform: uppercase;
+  transition: background-color 300ms, color 300ms;
+  border-radius: 9px;
+  font-family: var(--police-contactermoi)
+  
+}
+
+
+.bouton:hover {
+
+  color: white;
+  background-color: #4cb7a5;
+
+}
+
+
+.insta {
+
+  width: 50px;         
+  height: 50px;         
+  box-shadow: 0px 0px 20px #ffffff;
+  margin: 10px 5px;
+  border-radius: 50%;
+  
+}
+
+
+.insta-link {
+  
+  display: inline-block;
+  text-decoration: none;
+
+}
